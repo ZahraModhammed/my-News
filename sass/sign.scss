@@ -1,0 +1,29 @@
+@import './variables';
+@import './mixins';
+
+
+
+form{
+    .button{
+        @include button($main-color, $white-color, $main-color);
+        font-size: 22px;
+
+    }
+}
+
+a.ms-3{
+    color: $main-color;
+}
+
+.socail-media-login{
+    .login-button{
+        color: $main-color;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 25px;
+        transition: all 0.5s;
+        &:hover{
+            color: rgba($main-color,  $alpha: 0.5);
+        }
+    }
+}
