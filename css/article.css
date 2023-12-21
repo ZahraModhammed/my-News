@@ -197,9 +197,9 @@
   .related-artices .col-sm-4 {
     margin-bottom: 20px;
   }
-  /* .most-read {
+  .most-read {
     display: none;
-  } */
+  }
 }
 @media (max-width: 575px) {
   .article-main .suggested-stories {

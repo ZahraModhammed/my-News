@@ -1,1 +1,0 @@
-export const ApI_URl ="http://localhost:4010/"
