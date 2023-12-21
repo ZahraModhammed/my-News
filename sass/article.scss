@@ -143,7 +143,7 @@
     }
    
 
-    button{
+    .button{
         @include button($main-color,$white-color, $main-color);
         margin-top: 25px;
     }
@@ -269,9 +269,9 @@
         }
     }
 
-    .most-read{
-        display: none;
-     }
+    // .most-read{
+    //     display: none;
+    //  }
 }
 
 @media(max-width: 575px){

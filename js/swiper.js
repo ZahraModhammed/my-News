@@ -4,7 +4,7 @@ const changeSlideView = (slide) =>{
     slidesPerView: slide,
     spaceBetween: 30,
     autoplay:true,
-    loop:true,
+    
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

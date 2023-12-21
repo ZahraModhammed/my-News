@@ -675,18 +675,25 @@ footer{
 
     section{
         &.most-read{
-            .card-news{
-                padding: 15px;
-                .card-text{
-                    h4{
-                        margin-top: 15px;
+                .card-news{
+                    padding: 15px;
+                    .card-text{
+                        h4{
+                            margin-top: 15px;
+                        }
                     }
-                }
-            }
 
-            .card-img::after{
-                display: none;
-            }
+                   
+                }
+
+                
+                .card-img::after{
+                    display: none;
+                }
+            
+           
+
+            
         }
 
         &.latest-news{
